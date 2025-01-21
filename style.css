@@ -102,6 +102,7 @@ body{
    gap: 80;
    padding: 60px 0px 60px 0px;
    background: url(assets/bg.png);
+   border-bottom: 1px dashed rgb(194, 192, 192);
  }
  .curriculum-title{
    color: rgb(0, 0, 0);
@@ -184,8 +185,121 @@ background: linear-gradient(160.00deg, rgb(241, 218, 243),rgba(255, 255, 255, 0)
    font-size: 24px;
    text-align: center;
  }
+ /* stories related style */
 
-
+ .stories{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 80;
+   padding: 60px 0px 60px 0px;
+   margin-top: 0;
+   background: url(assets/bg.png),linear-gradient(0.00deg, rgba(114, 203, 209, 0.3),rgba(255, 255, 255, 0.3) 100%);
+ }
+ .stories-title{
+   margin-top: 0;
+   color: rgb(0, 0, 0);
+   font-family: Quicksand;
+   font-size: 46px;
+   font-weight: 700;
+   text-align: center;
+ }
+.children-cards{
+   margin-top: 40px;
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   margin-bottom: 100px;
+   gap: 30px;
+}
+.children-card-2{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   grid-template-rows: repeat(2, 1fr);
+   gap: 30px;
+}
+.children-card-1{
+   width: 540.27px;
+   height: 630.52px;
+   border-radius: 16px;
+   background: rgb(255, 255, 255);
+}
+.baby-card{
+   width: 290.69px;
+   height: 301.61px;
+   border-radius: 16px;
+   background: rgb(255, 255, 255);
+}
+.hide-card{
+   display: none;
+}
+.baby-img{
+   position: absolute;
+   border-radius: 16px 16px 0px 0px;
+}
+.baby-card-btn1{
+   position: absolute;
+   width: 180.51px;
+   height: 47.93px;
+   border-radius: 47.93px;
+   color: rgb(255, 255, 255);
+   font-size: 15.34px;
+   font-weight: 500;
+   text-transform: capitalize;
+   margin-top: 310px;
+   margin-left: 20px;
+   border: none;
+}
+.baby-card-btn{
+   position: absolute;
+   width: 174.51px;
+   height: 47.93px;
+   border-radius: 47.93px;
+   color: rgb(255, 255, 255);
+   font-family: Raleway;
+   font-size: 15.34px;
+   font-weight: 500;
+   text-transform: capitalize;
+   margin-top: 160px;
+   margin-left: 20px;
+   border: none;
+}
+.baby-des1{
+   width: 402.49px;
+   position: absolute;
+   margin-top: 400px;
+   color: rgb(0, 0, 0);
+   font-size: 15.34px;
+   font-weight: 700;
+   text-align: left;
+   font-family: Quicksand;
+   height: 47.93px;
+   margin-left: 30px;
+}
+.baby-des-2{
+   position: absolute;
+   color: rgb(102, 102, 102);
+   font-family: Raleway;
+   font-size: 15.34px;
+   font-weight: 500;
+   line-height: 28.76px;
+   letter-spacing: 0%;
+   text-align: left;
+   margin-top: 450px;
+   margin-left: 30px;
+   width: 425px;
+}
+.baby-des{
+   position: absolute;
+   margin-top: 220px;
+   color: rgb(0, 0, 0);
+   font-size: 15.34px;
+   font-weight: 700;
+   text-align: left;
+   width: 198.04px;
+   height: 47.93px;
+   margin-left: 20px;
+}
 
 
  @media screen and (max-width:576px) {
@@ -244,6 +358,7 @@ background: linear-gradient(160.00deg, rgb(241, 218, 243),rgba(255, 255, 255, 0)
       height: 100%;
       margin: 0 auto;
       margin-left: 5px;
+      margin-right: 5px;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -255,4 +370,25 @@ background: linear-gradient(160.00deg, rgb(241, 218, 243),rgba(255, 255, 255, 0)
     .pg-btn{
       display: none;
     }
+    .children-card-1{
+      display: none;
+    }
+    .stories, .stories-title, .children-card-2 {
+      width: 100%;
+    }
+    .children-card-2{
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      align-items: center;
+      margin-left: 10px;
+    }
+    .baby-card{
+      width: ;
+   }
+    
+    .baby-img >img{
+      width: 100%;
+    }
+    
  }
