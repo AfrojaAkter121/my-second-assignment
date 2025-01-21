@@ -234,6 +234,8 @@ background: linear-gradient(160.00deg, rgb(241, 218, 243),rgba(255, 255, 255, 0)
       justify-content: flex-start;
       align-items: center;
       gap: 50;
+      width: 100%;
+      margin: 0 auto;
       padding: 60px 0px 60px 0px;
       background: url(assets/bg.png);
     }
@@ -241,9 +243,14 @@ background: linear-gradient(160.00deg, rgb(241, 218, 243),rgba(255, 255, 255, 0)
       width: 100%;
       height: 100%;
       margin: 0 auto;
+      margin-left: 5px;
       display: flex;
       flex-direction: column;
-      gap: 40px;
+      align-items: center;
+    }
+    .curriculum-title{
+      width: 100%;
+      margin-bottom: 10px;
     }
     .pg-btn{
       display: none;
