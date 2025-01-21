@@ -300,6 +300,24 @@ background: linear-gradient(160.00deg, rgb(241, 218, 243),rgba(255, 255, 255, 0)
    height: 47.93px;
    margin-left: 20px;
 }
+footer{
+   background-color: rgba(11, 38, 39, 0.3);
+   height: 519px;
+}
+.footer{
+   display: flex;
+   width: 1070.91px;
+   height: 222px;
+}
+.footer-lh{
+   display: flex;
+   flex-direction: row;
+}
+.footer-links > a{
+   display: flex;
+   flex-direction: column;
+   text-decoration: none;
+}
 
 
  @media screen and (max-width:576px) {
@@ -383,12 +401,7 @@ background: linear-gradient(160.00deg, rgb(241, 218, 243),rgba(255, 255, 255, 0)
       align-items: center;
       margin-left: 10px;
     }
-    .baby-card{
-      width: ;
-   }
-    
     .baby-img >img{
       width: 100%;
     }
-    
- }
+  }
