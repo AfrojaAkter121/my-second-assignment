@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .card1 > button{
+            margin-left: -530px;
+            margin-top: 310px;
+            width: 174.51px;
+            height: 47.93px;
+            border-radius: 47.93px;
+            background: rgb(60, 216, 232);
+            color: rgb(255, 255, 255);
+             font-size: 15.34px;
+            font-weight: 500;
+            line-height: 28.76px;
+            text-transform: capitalize;
+            border: none;
+        }
+        .baby-card > button{
+            margin-left: -280px;
+            width: 174.51px;
+            height: 37.93px;
+            border-radius: 47.93px;
+            background: rgb(149, 178, 38);
+            color: rgb(255, 255, 255);
+             font-size: 15.34px;
+            font-weight: 500;
+            line-height: 28.76px;
+            text-transform: capitalize;
+            border: none;
+        }
+        .card1 > img{
+            width: 100%;
+            border-radius: 16px 16px 0px 0px;
+            background:rgb(217, 217, 217);
+        }
+        .card1 > p{
+            color: rgb(102, 102, 102);
+            font-family: Raleway;
+            font-size: 15.34px;
+            font-weight: 500;
+            line-height: 28.76px;
+            letter-spacing: 0%;
+            text-align: left;
+        }
+        .card1, .baby-card{
+            background-color: aqua;
+            border-radius: 16px;
+            background: rgb(255, 255, 255);
+            width: 540.27px;
+            height: 630.52px;
+        }
+        .card2{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            background-color: blue;
+            gap: 20px;
+            margin-left: 20px;
+        }
+        .baby-card{
+            width: 290.69px;
+            height: 301.61px;
+        }
+        .baby-card > img{
+            border-radius: 16px 16px 0px 0px;
+background: url(),rgb(255, 255, 255);
+        }
+        .card1 > p{
+            width: 433.06px;
+            height: 75.74px;
+        }
+        .card-container{
+            background-color: beige;
+            display: flex;
+            margin-top: 100px;
+            margin-left: 100px;
+            width: 100%;
+        }
+
+        @media screen and (max-width:576px) {
+            .card1s{
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="card-container">
+            <div class="card1">
+                <img src="story-1.png" alt="">
+                <button>November 19, 2019</button>
+                <h4> A fun toddler coloring training on classroom</h4>
+                <p>Beautiful branding for changes by Never Now in Australia.changes is a platform for open discussion in an inclusive and collaborative environment, providing the...</p>
+            </div>
+            <div class="card2">
+                <div class="baby-card">
+                    <img src="story-2.png" alt="">
+                    <button >November 19, 2019</button>
+                    <h4>Find out if a school fits the family’s needs</h4>
+                </div>
+                <div class="baby-card">
+                    <img src="story-3.png" alt="">
+                    <button style="background-color: rgb(93, 88, 240);">November 19, 2019</button>
+                    <h4>Summer math & literacy centres for kids</h4>
+                </div>
+                <div class="baby-card">
+                    <img src="story-4.png" alt="">
+                    <button>September 10, 2019</button>
+                    <h4>Classroom management techniques for new tutors</h4>
+                </div>
+                <div class="baby-card">
+                    <img src="story-5.png" alt="">
+                    <button style="width: 120px;">July 19, 2019</button>
+                    <h4>Conversation rhymes improve kids listening</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
