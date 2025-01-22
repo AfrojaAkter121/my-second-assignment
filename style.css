@@ -53,6 +53,7 @@ body{
     text-decoration: none;
     margin-left: 20px;
  }
+ 
  /* header section start */
  header{
     border-bottom: 1px dashed rgb(109, 108, 108);
@@ -91,6 +92,7 @@ body{
  #menu-btn{
     display: none;
  }
+
  /* curriculum section related style */
  .curriculum{
    height: 879px;
@@ -185,8 +187,8 @@ background: linear-gradient(160.00deg, rgb(241, 218, 243),rgba(255, 255, 255, 0)
    font-size: 24px;
    text-align: center;
  }
- /* stories related style */
 
+ /* stories related style */
  .stories{
    display: flex;
    flex-direction: column;
@@ -300,6 +302,8 @@ background: linear-gradient(160.00deg, rgb(241, 218, 243),rgba(255, 255, 255, 0)
    height: 47.93px;
    margin-left: 20px;
 }
+
+/* footer section related style */
 footer{
    background-color: rgb(11, 72, 97);
    height: 519px;
@@ -371,6 +375,8 @@ text-align: left;
 }
 
 
+/* responsive media query style */
+
  @media screen and (max-width:576px) {
     .nav-title, .nav-links, .nav-btn{
         display: none;
@@ -393,6 +399,8 @@ text-align: left;
     .hide-card{
       display: inline-block;
     }
+
+    /* banner style */
     .header{
         margin-top: 50px;
         height: 100%;
@@ -413,8 +421,9 @@ text-align: left;
         width: 100%;
         margin-left: 0;
      } 
+     /* curriculum style */
      .curriculum{
-      height: 100%;
+      height: 1600px;
       display: flex;
       flex-direction: column;
       justify-content: flex-start;
@@ -422,8 +431,6 @@ text-align: left;
       gap: 50;
       width: 100%;
       margin: 0 auto;
-      padding: 60px 0px 60px 0px;
-      background: url(assets/bg.png);
     }
      .card-container{
       width: 100%;
@@ -442,8 +449,17 @@ text-align: left;
     .pg-btn{
       display: none;
     }
+
+    /* stories style */
+
     .children-card-1{
       display: none;
+    }
+    .stories-title{
+      margin-top: 100px;
+    }
+    .children-cards{
+      width: 100%;
     }
     .children-card-2{
       display: grid;
@@ -456,6 +472,8 @@ text-align: left;
     .baby-img > img{
       width: 100%;
     }
+
+    /* footer style */
     .footer{
       display: flex;
       flex-direction: column;
